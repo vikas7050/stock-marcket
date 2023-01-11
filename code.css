@@ -1,0 +1,223 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    flex-wrap: wrap;
+    height: 90%;
+    width: 400px;
+}
+
+h4 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(70 177 170);
+    height: 50px;
+    width: 320px;
+    border-radius: 10px;
+}
+
+/* i{
+    margin: 10px;
+    font-size: 20px;
+    
+} */
+.fa-arrow-down {
+    color: red;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.fa-arrow-up {
+    color: rgb(20, 214, 20);
+    margin: 10px;
+    font-size: 20px;
+}
+
+.container-search {
+    background-color: rgb(171, 211, 211);
+    height: 140px;
+    width: 320px;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
+
+.container-input {
+    background-color: rgb(171, 211, 211);
+    height: 50px;
+    width: 320px;
+    display: flex;
+    align-items: center;
+    margin: 5px 0px 5px 0px;
+}
+
+.search-input {
+    margin: 10px 0px 10px 10px;
+    border: none;
+    height: 37px;
+    width: 245px;
+    border-radius: 17px;
+    background-color: rgb(70 177 170);
+    color: black;
+    padding: 6px 0px 6px 6px;
+
+
+}
+
+.fa-magnifying {
+
+    background-color: rgb(70 177 170);
+    color: rgb(171, 211, 211);
+    text-align: center;
+    width: 37px;
+    font-size: 25px;
+    border-radius: 50%;
+    height: 37px;
+    margin-top: 8px;
+    padding: 7px;
+    margin-left: 6px;
+    border: none;
+
+}
+
+.container-select {
+    display: grid;
+    grid-template-columns: repeat(2, 159px);
+    text-align: center;
+    align-self: flex-start;
+    place-items: center;
+
+
+}
+
+.select-name {
+    background-color: rgb(70 177 170);
+    height: 27px;
+    width: 150px;
+    border-radius: 18px;
+    border: none;
+    margin: 3px 0px 10px 5px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 4px;
+
+}
+
+.container-watchlist {
+    height: 250px;
+    width: 320px;
+    background-color: rgb(171, 211, 211);
+    border-radius: 10px;
+    overflow: scroll;
+}
+
+.Watchlist-input {
+    background-color: #caf3f3;
+    width: 275px;
+    border: none;
+    height: 37px;
+    border-radius: 17px;
+    color: black;
+    margin: 2px 23px 10px 22px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    /* position: fixed; */
+}
+
+/* .container-single{
+    width: 300px;
+    display: flex;
+    
+} */
+.watchlist-details {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #caf3f3;
+    width: 295px;
+    height: 50px;
+    text-align: center;
+    justify-content: space-between;
+    border-radius: 15px;
+    margin: 5px 0px 10px 6px;
+    align-items: center;
+}
+
+.watchlist-name {
+    text-align: center;
+    margin: 0px 0px 0px 8px;
+    font-weight: bold;
+    color: #4e6a6a;
+}
+
+.watchlist-score {
+    color: black;
+    background-color: rgb(30, 214, 30);
+    text-align: center;
+    height: 37px;
+    width: 65px;
+    font-weight: bold;
+    border-radius: 14px;
+    padding: 9px 0px 0px 0px;
+}
+
+.watchlist-select {
+    font-weight: bold;
+    border: none;
+    background-color: rgb(70 177 170);
+    border-radius: 18px;
+    height: 31px;
+    width: 125px;
+    padding: 6px;
+}
+
+/* .fa-xmark {
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+    font-size: 25px;
+    padding: 1px 0px 0px 1px;
+    margin: 0px 6px 0px 0px;
+} */
+.btn-cross{
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    height: 27px;
+    width: 27px;
+    font-size: 25px;
+    padding: -2px 0px 0px 1px;
+    margin: 0px 6px 0px 0px;
+    border: none;
+
+}
+table {
+    font-weight: bold;
+    font-size: 12px;
+    background-color: #caf3f3;
+    overflow: scroll;
+    height: 50px;
+    margin: -15px 0px 0px 4px;
+    border-radius: 15px;
+    width: 295px;
+    padding: 10px 0px 0px 3px;
+}
+.create-table{
+    display: none;
+}
